@@ -1,4 +1,4 @@
-import arrange from '../src/arrange';
+import arrange from '../src/arrange.js';
 
 // for(let i = 0; i < (arrange.length - 1); i++){
 //     console.log(arrange[i].health);
