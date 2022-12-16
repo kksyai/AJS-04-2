@@ -12,14 +12,10 @@
         "sourceType": "module"
     },
     "rules": {
-        "no-restricted-syntax":[
+        "no-restricted-syntax": [ 
             "error",
             "LabeledStatement",
             "WithStatement"
-        ],
-        "import/extensions":[
-            "error",
-            "ignorePackages"
         ]
     }
 }
