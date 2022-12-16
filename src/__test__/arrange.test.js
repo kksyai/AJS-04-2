@@ -1,10 +1,11 @@
-import math from '../arrange';
+import { person } from '../arrange';
 
 test('massive sould be arraned', () => {
-  const testArray = [
+  const expected = [
     { name: 'маг', health: 100 },
     { name: 'лучник', health: 80 },
     { name: 'мечник', health: 10 },
   ];
-  
+  const received = person.sort();
+  expect(received).toEqual(expected);
 });
