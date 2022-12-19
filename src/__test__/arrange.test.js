@@ -1,4 +1,4 @@
-import { person } from '../arrange';
+import { sortMass } from '../arrange';
 
 test('massive sould be arraned', () => {
   const expected = [
@@ -6,6 +6,6 @@ test('massive sould be arraned', () => {
     { name: 'лучник', health: 80 },
     { name: 'мечник', health: 10 },
   ];
-  const received = person.sort();
-  expect(received).toEqual(expected);
+  // const received = ;
+  expect(sortMass).toEqual(expected);
 });

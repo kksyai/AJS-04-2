@@ -4,12 +4,9 @@ export const person = [
   { name: 'лучник', health: 80 },
 ];
 
-export default function math(a, b) {
+export const sortMass = person.sort((a, b) => {
   if (a.health < b.health) {
     return 1;
   }
   return -1;
-}
-person.sort(math);
-
-console.log(person.sort());
+});
